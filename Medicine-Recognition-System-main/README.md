@@ -119,30 +119,16 @@ Open your browser and navigate to:
 
 ```text
 Med-recognition/
-├── .env.example                                      # Environment variable template
-├── .gitignore                                        # Ignored files (venv, .env, __pycache__)
-├── app.py                                            # Main Flask server & Gemini pipeline
-├── Medicine_Recognition_System_Tech_Stack_Interview_Guide.docx # Complete interview & architecture guide
-├── requirements.txt                                  # Python project dependencies
-├── run.bat                                           # Windows one-click startup script
+├── .env.example              # Environment variable template
+├── .gitignore                # Ignored files (venv, .env, __pycache__)
+├── app.py                    # Main Flask server & Gemini pipeline
+├── requirements.txt          # Python project dependencies
+├── run.bat                   # Windows one-click startup script
 ├── static/
-│   └── style.css                                     # Custom responsive medical theme
+│   └── style.css             # Custom responsive medical theme
 └── templates/
-    └── index.html                                    # Jinja2 dashboard template
+    └── index.html            # Jinja2 dashboard template
 ```
-
----
-
-## 🎓 Technical Interview Guide Included
-
-This repository includes a dedicated Word document:  
-📄 **`Medicine_Recognition_System_Tech_Stack_Interview_Guide.docx`**
-
-It contains:
-- **60-Second Elevator Pitch** to describe this project in technical interviews.
-- **Syntax Handbook** with line-by-line code explanations.
-- **Architectural Trade-offs** (Flask vs Django/FastAPI, Gemini vs GPT-4V, Pillow vs OpenCV).
-- **15 In-Depth Interview Questions & Answers** covering scaling to 10k requests, zero-disk security, HIPAA considerations, and hallucination prevention.
 
 ---
 
